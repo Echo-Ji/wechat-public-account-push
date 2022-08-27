@@ -15,7 +15,9 @@ export const config = {
     // 所在城市
     city: "北京",
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 r
-    birthday_message: "2022-10-12",
+    birthdays: [
+        {"name": "老婆", "year": "1997", "date": "2022-10-12", "type": "r"},
+    ],
     // 在一起的日子，格式同上
     love_day: "2020-01-22",
     }
